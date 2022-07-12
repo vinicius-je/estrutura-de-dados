@@ -3,7 +3,7 @@ Repositório de estudo
 
 ## Tópicos estudados
 - [x] Alocação de memória dinâmica
-- [ ] Lista
+- [x] Lista
 - [ ] Fila
 - [ ] Pilha
 
