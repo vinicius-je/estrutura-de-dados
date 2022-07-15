@@ -5,7 +5,7 @@ Repositório de estudo
 - [x] Alocação de memória dinâmica
 - [x] Lista
 - [x] Fila
-- [ ] Pilha
+- [x] Pilha
 
 ## Referências
 **De aluno para aluno:**
@@ -18,3 +18,4 @@ Repositório de estudo
 
 [playlist sobre Fila](https://www.youtube.com/watch?v=pJBC0Yo6P9c&list=PLqJK4Oyr5WSgPCLNVjeOdwLgVPhUSfBMf&index=1)
 
+[playlist sobre Pilha](https://www.youtube.com/watch?v=nWHveXK9g_8&list=PLqJK4Oyr5WSj_Ngpezsatdu5s2G74g9sf)
