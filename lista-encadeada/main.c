@@ -136,7 +136,7 @@ int main(){
     int valor, opcao, anterior;
     Lista lista = criarLista();
     do{
-        printf("\n\t0 - Sair\n\t1 - Inserir no inicio\n\t2 - Inseriro no final\n\t3 - Inseriro no meio\n\t4 - Remover um elemento\n\t5 - Buscar elemento\n\t6 - Imprimir\n\n");
+        printf("\n\t0 - Sair\n\t1 - Inserir no inicio\n\t2 - Inserir no final\n\t3 - Inserir no meio\n\t4 - Remover um elemento\n\t5 - Buscar elemento\n\t6 - Imprimir\n\n");
         scanf("%d", &opcao);
 
         switch (opcao){
