@@ -144,16 +144,6 @@ void removerElemento(Lista lista, int num){
     lista->tamanho--;
 }
 
-tNo* buscarElemento(Lista lista, int elemento){
-    tNo *noAux = NULL;
-    if(lista){
-        noAux = lista->primeiro;
-        while(noAux && noAux->valor != elemento)
-            noAux = noAux->proximo;
-    }
-    return noAux;
-}
-
 void imprimirInverso(Lista lista){
     tNo *noAux = (tNo *)malloc(sizeof(tNo));
     noAux = lista->ultimo;
@@ -170,7 +160,7 @@ int main(){
     int valor, opcao, anterior;
     Lista lista = criarLista();
     do{
-        printf("\n\t0 - Sair\n\t1 - Inserir no inicio\n\t2 - Inserir no final\n\t3 - Inserir no meio\n\t4 - Remover um elemento\n\t5 - Buscar elemento\n\t6 - Imprimir\n\t7 - Imprimir Invertido\n\n");
+        printf("\n\t0 - Sair\n\t1 - Inserir no inicio\n\t2 - Inserir no final\n\t3 - Inserir no meio\n\t4 - Remover um elemento\n\t5 - Imprimir\n\t6 - Imprimir Invertido\n\n");
         scanf("%d", &opcao);
 
         switch (opcao){
@@ -195,18 +185,9 @@ int main(){
             removerElemento(lista, valor);
             break;
         case 5:
-            printf("Digite o valor a ser buscado: ");
-            scanf("%d", &valor);
-            tNo *busca = buscarElemento(lista, valor);
-            if(busca)
-                printf("Elemento %d foi encontrado\n\n", busca->valor);
-            else
-                printf("Elemento nao econtrado!\n\n");
-            break;
-        case 6:
             imprimirLista(lista);
             break;
-        case 7:
+        case 6:
             imprimirInverso(lista);
             break;
         default:
