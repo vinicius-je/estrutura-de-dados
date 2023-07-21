@@ -1,5 +1,5 @@
-# Estrutura de dados
-Repositório de estudo
+<h1 align='center'>Estrutura de dados</h1>
+<p align='center'>Repositório para armazenar trabalhos realizados durante a disciplina de estrutura de dados</p>
 
 ## Tópicos estudados
 - [x] Alocação de memória dinâmica
